@@ -9,4 +9,4 @@ I build the pipelines and platforms that carry data at scale — Flink, Spark, K
 - [life-as-code.com](https://life-as-code.com) — self-hosted health record joining Garmin, Hevy and HealthKit into one Postgres schema, reachable by an assistant over a typed MCP contract.
 - [nikolay-eremeev.com](https://nikolay-eremeev.com/projects/) — the k3s + Forgejo + Argo Workflows + ArgoCD platform everything above ships through, and interactive explanations of the systems I work on.
 
-[hi@nikolay-eremeev.com](mailto:hi@nikolay-eremeev.com) · [nikolay-eremeev.com](https://nikolay-eremeev.com) · [LinkedIn](https://www.linkedin.com/in/nikolay-eremeev-916a5317a/)
+[hi@nikolay-eremeev.com](mailto:hi@nikolay-eremeev.com) · [nikolay-eremeev.com](https://nikolay-eremeev.com) · [LinkedIn](https://www.linkedin.com/in/nikolay-eremeev-data/) · [ORCID](https://orcid.org/0009-0006-3716-4879)
