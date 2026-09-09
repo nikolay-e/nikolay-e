@@ -1,4 +1,4 @@
-### Senior/Staff Engineer · Data & AI Infrastructure
+### Senior Data Infrastructure Engineer
 
 I build the pipelines and platforms that carry data at scale — Flink, Spark, Kafka, Kubernetes — and the LLM automation that now runs on top of them. Currently at CrowdStrike; previously IBM and TeamViewer. German/EU citizen, based in Germany (CET).
 
