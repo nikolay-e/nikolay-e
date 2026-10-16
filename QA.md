@@ -2,11 +2,8 @@
 
 GitHub profile README repo. No runtime surface — QA = lint + dead-link check.
 The published surface is the GitHub profile render, and publish = a push
-reaching the `github` remote. **Both remotes are archived read-only** (push →
-403 on `origin`/Forgejo and on `github`, observed 2026-08-13): the profile
-renders the archived GitHub HEAD, and no local change can publish until the
-GitHub repo is unarchived. A local `main` ahead of `github/main` is therefore
-a standing finding, not noise — report it, don't wave it off.
+reaching the `github` remote. A local `main` ahead of `github/main` is an
+unpublished change — report it, don't wave it off.
 
 Generic patterns live in the `/qa` skill — do not duplicate here.
 
@@ -55,7 +52,7 @@ grep -oE 'https?://[^ )]+' README.md | while read u; do
   curl -sS -o /dev/null -w "%{http_code} $u\n" -L --max-time 10 "$u"
 done
 # published-state check — the GitHub render is the publish; local main
-# ahead of github/main = unpublished changes (expected while archived).
+# ahead of github/main = unpublished changes.
 git fetch github
 git rev-parse main github/main
 ```
